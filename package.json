@@ -1,0 +1,28 @@
+{
+  "name": "projectcucumber",
+  "version": "1.0.0",
+  "description": "test using cucumber js",
+  "main": "google-search.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -x 50000"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Archana",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^4.0.4",
+    "mocha": "^5.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "easy-soap-request": "^2.3.0",
+    "http-post": "^0.1.1",
+    "https-post": "^0.1.1",
+    "selenium-cucumber-js": "^1.6.2",
+    "soap": "^0.25.0"
+  }
+}
